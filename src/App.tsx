@@ -1,23 +1,31 @@
+/*  * Main root react app
+    * Author : Aden Aziz Hasnayakin
+    * Created at: Jum'at, 04 Desember 2020 - 10:49 WIB
+*/
+
 import React from 'react';
+
+import Button from './components/Button';
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+const App: React.FunctionComponent = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img alt="logo" className="App-logo" src={logo} />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
         <a
           className="App-link"
           href="https://reactjs.org"
-          target="_blank"
           rel="noopener noreferrer"
+          target="_blank"
         >
           Learn React
         </a>
+        <Button />
       </header>
     </div>
   );

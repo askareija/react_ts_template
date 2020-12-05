@@ -1,5 +1,11 @@
+/*  * Main react index app
+    * Author : Aden Aziz Hasnayakin
+    * Created at: Jum'at, 04 Desember 2020 - 10:49 WIB
+*/
+
 import React from 'react';
 import ReactDOM from 'react-dom';
+
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
